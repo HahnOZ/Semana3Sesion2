@@ -1,0 +1,37 @@
+/* Selectores */
+
+h1 {
+    color: cornflowerblue;
+}
+
+
+/* Especificidad */
+
+h2 {
+    color: fuchsia;
+}
+
+.clase2 {
+    color: skyblue;
+}
+
+
+/* Cascada */
+
+h3 { 
+    color: red; 
+}
+h3 { 
+    color: blue; 
+}
+
+
+/* Herencia */
+
+h4 { 
+    color: red; 
+}
+   
+.clase4 h4 {
+    color: inherit;
+}
